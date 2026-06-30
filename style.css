@@ -45,7 +45,9 @@ body {
     color: #FFC761;
     font-size: 26px;
 }
-
+#memu{
+    opacity: 0;
+}
 #first_p1,
 #first_p2,
 #first_p3,
@@ -331,6 +333,7 @@ body {
     padding-left: 10px;
     align-items: center;
     height: 100%;
+    color: white;
 }
 #fivth{
     position: relative;
