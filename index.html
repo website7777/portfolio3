@@ -1,125 +1,116 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lumio — умная лампа для дома</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <header class="header">
-    <a href="#" class="logo">Lumio<span>.</span></a>
-    <nav class="nav" id="nav">
-      <a href="#features">Возможности</a>
-      <a href="#design">Дизайн</a>
-      <a href="#app">Приложение</a>
-      <a href="#price">Цена</a>
-    </nav>
-    <button class="menu" id="menu">☰</button>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-text">
-        <p class="badge">новое поколение smart light</p>
-        <h1>Свет, который подстраивается под твой день</h1>
-        <p class="hero-p">Lumio меняет яркость, цвет и сценарии освещения автоматически: для работы, отдыха, сна и атмосферы.</p>
-        <div class="hero-actions">
-          <a href="#price" class="btn primary">Купить сейчас</a>
-          <a href="#features" class="btn ghost">Узнать больше</a>
+    <div id="first">
+        <header>
+            <h1 id="first_h1_1">Lumio</h1> <h1 id="first_h1_1_second">.</h1>
+            <p class="menu_show" id="first_p1">Возможности</p>
+            <p class="menu_show" id="first_p2">Дизайн</p>
+            <p class="menu_show" id="first_p3">Приложение</p>
+            <p class="menu_show" id="first_p4">Цена</p>
+            <img id="menu" src="menu.png" alt="">
+        </header>
+        <h1 id="h1_2">новое поколение smart light</h1>
+        <h1 id="first_h1_3">Свет, который подстраивается под твой день</h1>
+        <p id="first_p5">Lumio меняет яркость, цвет и сценарии освещения автоматически: для работы, отдыха, сна и атмосферы.</p>
+        <button id="btn1">Купить сейчас</button>
+        <button id="btn2">Узнать больше</button>
+        <img id="img1" src="lamp.png" alt="">
+    </div>
+    <div id="second">
+        <div id="second_elem1">
+            <h1 class="second_h1">16M</h1>
+            <p class="second_p">цветов</p>
         </div>
-      </div>
-      <div class="lamp-card">
-        <div class="glow"></div>
-        <div class="lamp">
-          <div class="top"></div>
-          <div class="light"></div>
-          <div class="stand"></div>
-          <div class="base"></div>
+        <div id="second_elem2">
+            <h1 class="second_h1">42%</h1>
+            <p class="second_p">экономии энергии</p>
         </div>
-      </div>
-    </section>
-
-    <section class="stats">
-      <div><h2>16M</h2><p>цветов</p></div>
-      <div><h2>42%</h2><p>экономии энергии</p></div>
-      <div><h2>24/7</h2><p>авто-сценарии</p></div>
-    </section>
-
-    <section class="features" id="features">
-      <div class="section-head">
-        <p>возможности</p>
-        <h2>Одна лампа — десятки сценариев</h2>
-      </div>
-      <div class="grid">
-        <article>
-          <span>01</span>
-          <h3>Фокус-режим</h3>
-          <p>Холодный мягкий свет помогает не уставать во время учёбы, работы и чтения.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>Вечерний уют</h3>
-          <p>Тёплые оттенки создают спокойную атмосферу для отдыха после насыщенного дня.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Умное пробуждение</h3>
-          <p>Свет постепенно становится ярче, имитируя рассвет и помогая проснуться легче.</p>
-        </article>
-        <article>
-          <span>04</span>
-          <h3>Голосовое управление</h3>
-          <p>Меняй яркость, цвет и режимы голосом или через приложение на телефоне.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="design" id="design">
-      <div class="design-box">
-        <div>
-          <p class="badge">минимализм</p>
-          <h2>Подходит к любому интерьеру</h2>
-          <p>Lumio сделана из матового алюминия и полупрозрачного стекла. Она выглядит как деталь интерьера, а не просто гаджет.</p>
+        <div id="second_elem3">
+            <h1 class="second_h1">24/7</h1>
+            <p class="second_p">авто-сценарии</p>
         </div>
-        <ul>
-          <li>Бесшумная работа</li>
-          <li>Сенсорная панель</li>
-          <li>Регулировка угла</li>
-          <li>USB-C питание</li>
-        </ul>
-      </div>
-    </section>
+    </div>
+    <div id="third">
+        <h1 id="third_h1_1">Возможности</h1>
+        <h1 id="third_h1_2">Одна лампа — десятки сценариев</h1>
+        <div class="third_elems" id="third_elem1">
+            <h1 class="third_elems_h1_1">01</h1>
+            <h1 class="third_elems_h1_2">Фокус-режим</h1>
+            <p class="third_elems_p">Холодный мягкий свет помогает не уставать во время учёбы, работы и чтения.</p>
+        </div>
+        <div class="third_elems" id="third_elem2">
+            <h1 class="third_elems_h1_1">02</h1>
+            <h1 class="third_elems_h1_2">Вечерний уют</h1>
+            <p class="third_elems_p">Тёплые оттенки создают спокойную атмосферу для отдыха после насыщенного дня.</p>
+        </div>
+        <div class="third_elems" id="third_elem3">
+            <h1 class="third_elems_h1_1">03</h1>
+            <h1 class="third_elems_h1_2">Умное пробуждение</h1>
+            <p class="third_elems_p">Свет постепенно становится ярче, имитируя рассвет и помогая проснуться легче.</p>
+        </div>
+        <div class="third_elems" id="third_elem4">
+            <h1 class="third_elems_h1_1">04</h1>
+            <h1 class="third_elems_h1_2">Голосовое управление</h1>
+            <p class="third_elems_p">Меняй яркость, цвет и режимы голосом или через приложение на телефоне.</p>
+        </div>
+    </div>
+    <div id="fourth">
+        <div id="fourth_elem1">
+            <h1 id="fourth_h1_1">Возможности</h1>
+            <h1 id="fourth_h1_2">Подходит к любому интерьеру</h1>
+            <p id="fourth_p1">Lumio сделана из матового алюминия и полупрозрачного стекла. Она выглядит как деталь интерьера, а не просто гаджет.</p>
+        </div>
+        <div class="fourth_elems" id="fourth_elem1_1">
+            <p class="fourth_elems_p">   Бесшумная работа</p>
+        </div>
+        <div class="fourth_elems" id="fourth_elem1_2">
+            <p class="fourth_elems_p">   Сенсорная панель</p>
+        </div>
+        <div class="fourth_elems" id="fourth_elem1_3">
+            <p class="fourth_elems_p">   Регулировка угла</p>
+        </div>
+        <div class="fourth_elems" id="fourth_elem1_4">
+            <p class="fourth_elems_p">   USB-C питание</p>
+        </div>
+    </div>
+    <div id="fivth">
+        <div id="fivth_elem1">
+            <div id="fivth_square">square</div>
+            <div class="fivth_elem1_elems" id="fivth_elem1_1">
+                <p id="black_1"  class="fivth_elems_p">Work mode</p>
+                <h1 id="black_2"  class="fivth_elems_h1">78%</h1>
+            </div>
+            <div class="fivth_elem1_elems" id="fivth_elem1_2">
+                <p class="fivth_elems_p">Sleep mode</p>
+                <h1 class="fivth_elems_h1">22:30</h1>
+            </div>
+            <div class="fivth_elem1_elems" id="fivth_elem1_3">
+                <p class="fivth_elems_p">Sunrise</p>
+                <h1 class="fivth_elems_h1">07:10</h1>
+            </div>
+        </div>
+        <p id="fivth_p4">mobile app</p>
+        <h1 id="fivth_h1_4">Полный контроль в телефоне</h1>
+        <p id="fivth_p5">Создавай свои сценарии, расписания и быстрые команды. Приложение запоминает привычки и предлагает режимы автоматически.</p> 
+    </div>
+    <div id="sixth">
+        <div id="sixth_elem1">
+            <h1 id="sixth_h1_1">старт продаж</h1>
+            <h1 id="sixth_h1_2">Lumio Smart Lamp</h1>
+            <h1 id="sixth_h1_3">€89</h1>
+            <p id="sixth_p1">Комплект: лампа, USB-C кабель, адаптер питания и доступ к приложению.</p>
+            <button id="sixth_btn1">Оформить предзаказ</button>
+        </div>
+    </div>
 
-    <section class="app" id="app">
-      <div class="phone">
-        <div class="phone-top"></div>
-        <div class="screen-card active">Work mode <b>78%</b></div>
-        <div class="screen-card">Sleep mode <b>22:30</b></div>
-        <div class="screen-card">Sunrise <b>07:10</b></div>
-      </div>
-      <div class="app-text">
-        <p class="badge">mobile app</p>
-        <h2>Полный контроль в телефоне</h2>
-        <p>Создавай свои сценарии, расписания и быстрые команды. Приложение запоминает привычки и предлагает режимы автоматически.</p>
-      </div>
-    </section>
-
-    <section class="price" id="price">
-      <div class="price-card">
-        <p class="badge">старт продаж</p>
-        <h2>Lumio Smart Lamp</h2>
-        <p class="cost">€89</p>
-        <p>Комплект: лампа, USB-C кабель, адаптер питания и доступ к приложению.</p>
-        <a href="#" class="btn primary">Оформить предзаказ</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 Lumio. Portfolio concept.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
